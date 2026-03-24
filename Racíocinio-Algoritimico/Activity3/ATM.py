@@ -1,4 +1,4 @@
-#Algoritmo que simula um ATM com capacidade de saque
+#Algoritmo que simula um ATM com capacidade de saque e cálculo de número de notas
 
 valor_saque = int(input('Digite o valor do saque (apenas valores inteiros): '))
 
