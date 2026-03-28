@@ -1,11 +1,10 @@
 #algoritmo que simula um jogo de impar ou par com 2 jogadores
 
-numero_jogador1 = int(input("Qual o seu número, jogador 1? (de 1 a 5) "))
-numero_jogador2 = int(input("Qual o seu número, jogador 2? (de 1 a 5) "))
-
 palpite_jogador1 = input("Qual o seu palpite, ímpar ou par, jogador 1?")
 palpite_jogador2 = input("Qual o seu palpite, ímpar ou par, jogador 2?")
 
+numero_jogador1 = int(input("Qual o seu número, jogador 1? (de 1 a 5) "))
+numero_jogador2 = int(input("Qual o seu número, jogador 2? (de 1 a 5) "))
 
 if 1 <= numero_jogador1 <= 5 and 1 <= numero_jogador2 <= 5:
 

@@ -19,6 +19,7 @@ if base_calculo <= 2428.80:
 elif base_calculo <= 2826.65:
     aliquota = 0.075
     parcela_deduzir = 182.16
+
     faixa = "faixa 2"
 elif base_calculo <= 3751.05:
     aliquota = 0.15
