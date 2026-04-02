@@ -75,7 +75,7 @@ print(f"C) Z1 * Z3 = {z1 * z3}")
 print(f"D) Z2 / Z3 ≈ {z2 / z3:.2f}")
 
 #=================================
-#PÁGINA 2
+#PÁGINA 1
 #=================================
 
 print("\n>>>PÁGINA 1<<<")
@@ -118,3 +118,65 @@ S = {(1), 3, 9, 10}
 U = {(1, 3, pi), 1}
 
 print("\n✅ | Atividade 2")
+
+if 1 in R:
+    print("\nA) True")
+else:
+    print("\nA) False")
+
+if 1 in S:
+    print("B) True")
+else:
+    print("B) False")
+
+if {1} <= T:
+    print("C) True")
+else:
+    print("C) False")
+
+if {1} in S:
+    print("D) True")
+else:
+    print("D) False")
+
+if T < R:
+    print("E) True")
+else:
+    print("E) False")
+
+if set() < S:
+    print("F) True")
+else:
+    print("F) False")
+
+if T <= U:
+    print("G) True")
+else:
+    print("G) False")
+
+if T <= R:
+    print("H) True")
+else:
+    print("H) False")
+
+if S in {1, 3, 9, 10}:
+    print("I) True")
+else:
+    print("I) False")
+
+#=================================
+#Atividade 3
+#=================================
+
+print("\n✅ | Atividade 3")
+
+print(f"\nA) {complex(5, 7) + complex(4, 6)}")
+print(f"B) {complex(9, 2) - complex(6, 7)}")
+print(f"C) {complex(1, 3) - complex(6, -5)}")
+print(f"D) {complex(5, 6) * complex(2, 7)}")
+print(f"E) {complex(5, 6) * complex(2, -7)}")
+print(f"F) {complex(8, -4) * complex(2, 3)}")
+print(f"G) {complex(3, 4)**2}")
+print(f"H)≈ ({complex(sqrt(5), sqrt(7))**2:.2f})")
+print(f"I) {complex(1, 2) / complex(3, 4)}")
+print(f"I)≈ ({complex(3, -4) / complex(6, -5):.2f})")
