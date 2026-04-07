@@ -1,3 +1,5 @@
+#Algoritmo que calcula uma soma semi-finita de números informados pelo usuário, parando se tentar somar 0
+
 soma = 0
 
 while True:
